@@ -8,10 +8,18 @@ public class Area {
         boolean worky = false;
         Scanner input;
 
+
         // Radius must be a number and positive
         do {
             input = new Scanner(System.in);
             System.out.print("Enter a radius: ");
+
+            // Collect input
+//            if (input.nextLine().equals("")) {
+//                System.out.println("No worky, please give something.");
+//                continue;
+//            }
+
             if (input.hasNextDouble()) {
                 r = input.nextDouble();
                 if (r < 0) {

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.lsn1datatypes;
 
 import java.util.Scanner;
 

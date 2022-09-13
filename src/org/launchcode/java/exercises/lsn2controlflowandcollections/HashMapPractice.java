@@ -1,4 +1,4 @@
-package exercises.lsn2controlflowandcollections;
+package org.launchcode.java.exercises.lsn2controlflowandcollections;
 
 import java.util.HashMap;
 import java.util.Map;

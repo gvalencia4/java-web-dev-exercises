@@ -1,4 +1,4 @@
-package exercises.lsn1datatypes;
+package org.launchcode.java.exercises.lsn1datatypes;
 
 import java.util.Scanner;
 

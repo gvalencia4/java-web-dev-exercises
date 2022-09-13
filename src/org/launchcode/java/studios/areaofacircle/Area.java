@@ -8,16 +8,16 @@ public class Area {
         boolean worky = false;
         Scanner input;
 
-
-        // Radius must be a number and positive
+        // Collect input. Radius must be a number and positive
         do {
             input = new Scanner(System.in);
             System.out.print("Enter a radius: ");
 
-            // Collect input
+            // ISSUE: When I use input methods, they consume whatever is entered and I over prompt
+
 //            if (input.nextLine().equals("")) {
 //                System.out.println("No worky, please give something.");
-//                continue;
+//                break;
 //            }
 
             if (input.hasNextDouble()) {
@@ -34,10 +34,10 @@ public class Area {
 
         // Area
         double area = Circle.getArea(r);
-        area = DoubleRound(area, 3);
+        area = doubleRound(area, 3);
         System.out.println("The area of a circle of radius " + r + " is: " + area);
     }
-    public static Double DoubleRound(Double number, Integer zeroes) {
+    public static double doubleRound(double number, double zeroes) {
         double x = Math.pow(10, zeroes);
         return (double) Math.round(number * x) / x;
     }

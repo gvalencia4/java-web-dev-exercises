@@ -12,7 +12,7 @@ public class CountingCharacters {
     public static void main(String[] args) throws Exception {
 
         // Get file location
-        String filePath = "//Users//gabrielvalencia//LC101//Java//1-Introduction-and-Setup//java-web-dev-exercises//src//org//launchcode//java//studios//countingcharacters//read_this_text.txt";
+        String filePath = "/Users/gabrielvalencia/LC101/Java/java-web-dev-exercises/src/org/launchcode/java/studios/countingcharacters/read_this_text.txt";
         String textString = readFileAsString(filePath);
 
         // Convert a string into an array of characters

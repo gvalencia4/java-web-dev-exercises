@@ -1,4 +1,4 @@
-package exercises.lsn2controlflowandcollections;
+package org.launchcode.java.exercises.lsn2controlflowandcollections;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,0 +1,15 @@
+  Menu
+  - lastUpdated (Date)
+  - types?
+    - appetizer (string)
+    - main course (string)
+    - dessert (string)
+
+  Menu Item
+  - price (BigDouble)
+  - description (String)
+  - category (string)
+    - appetizer (string)
+    - main course (string)
+    - dessert (string)
+  - isNew (boolean)

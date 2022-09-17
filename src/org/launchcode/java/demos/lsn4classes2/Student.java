@@ -30,8 +30,6 @@ public class Student {
         return (this.name + " has a GPA of: " + this.gpa);
     }
 
-
-     //TODO: Uncomment and complete the getGradeLevel method here:
     public static String getGradeLevel(int c) {
         // Determine the grade level of the student based on numberOfCredits
         // Freshman (0-29 credits), Sophomore (30-59 credits), Junior (60-89 credits), or Senior (90+ credits
@@ -46,9 +44,12 @@ public class Student {
         }
     }
 
+
+
     // TODO: Complete the addGrade method.
     public void addGrade(int courseCredits, double grade) {
         // Update the appropriate fields: numberOfCredits, gpa
+        // gpa = (total quality score) / (total number of credits)
         double qualityScore = this.gpa * this.numberOfCredits;
         qualityScore += courseCredits * grade;
         this.numberOfCredits += courseCredits;

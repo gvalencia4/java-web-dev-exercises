@@ -1,9 +1,6 @@
   Menu
   - lastUpdated (Date)
-  - types?
-    - appetizer (string)
-    - main course (string)
-    - dessert (string)
+  - listOfItems
 
   Menu Item
   - price (BigDouble)
@@ -13,3 +10,5 @@
     - main course (string)
     - dessert (string)
   - isNew (boolean)
+
+
